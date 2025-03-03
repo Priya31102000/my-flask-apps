@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Elementary Math Worksheets</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        .worksheet {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        .problem {
+            margin-bottom: 5px;
+        }
+        input[type="number"] {
+            width: 50px;
+        }
+        .feedback {
+            font-weight: bold;
+        }
+        .correct {
+            color: green;
+        }
+        .incorrect {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Elementary Math Worksheets</h1>
+
+    <div class="worksheet">
+        <h2>Worksheet 1: Addition</h2>
+        <p>Add the numbers in each problem.</p>
+
+        <div class="problem">
+            12 + 35 =
+            <input type="number" id="addition_answer_0" data-worksheet="addition" data-problem-index="0">
+            <span class="feedback" id="addition_feedback_0"></span>
+        </div>
+
+        <div class="problem">
+            27 + 11 =
+            <input type="number" id="addition_answer_1" data-worksheet="addition" data-problem-index="1">
+            <span class="feedback" id="addition_feedback_1"></span>
+        </div>
+
+        <!-- Remaining problems for Addition worksheet -->
+        <div class="problem">
+            48 + 21 =
+            <input type="number" id="addition_answer_2" data-worksheet="addition" data-problem-index="2">
+            <span class="feedback" id="addition_feedback_2"></span>
+        </div>
+       <div class="problem">
+            36 + 53 =
+            <input type="number" id="addition_answer_3" data-worksheet="addition" data-problem-index="3">
+            <span class="feedback" id="addition_feedback_3"></span>
+        </div>
+       <div class="problem">
+            62 + 18 =
+            <input type="number" id="addition_answer_4" data-worksheet="addition" data-problem-index="4">
+            <span class="feedback" id="addition_feedback_4"></span>
+        </div>
+       <div class="problem">
+            55 + 25 =
+            <input type="number" id="addition_answer_5" data-worksheet="addition" data-problem-index="5">
+            <span class="feedback" id="addition_feedback_5"></span>
+        </div>
+       <div class="problem">
+            19 + 70 =
+            <input type="number" id="addition_answer_6" data-worksheet="addition" data-problem-index="6">
+            <span class="feedback" id="addition_feedback_6"></span>
+        </div>
+       <div class="problem">
+            34 + 46 =
+            <input type="number" id="addition_answer_7" data-worksheet="addition" data-problem-index="7">
+            <span class="feedback" id="addition_feedback_7"></span>
+        </div>
+       <div class="problem">
+            73 + 17 =
+            <input type="number" id="addition_answer_8" data-worksheet="addition" data-problem-index="8">
+            <span class="feedback" id="addition_feedback_8"></span>
+        </div>
+       <div class="problem">
+            81 + 9 =
+            <input type="number" id="addition_answer_9" data-worksheet="addition" data-problem-index="9">
+            <span class="feedback" id="addition_feedback_9"></span>
+        </div>
+    </div>
+
+    <div class="worksheet">
+        <h2>Worksheet 2: Subtraction</h2>
+        <p>Subtract the numbers in each problem.</p>
+
+        <div class="problem">
+            45 - 23 =
+            <input type="number" id="subtraction_answer_0" data-worksheet="subtraction" data-problem-index="0">
+            <span class="feedback" id="subtraction_feedback_0"></span>
+        </div>
+    <div class="problem">
+            67 - 15 =
+            <input type="number" id="subtraction_answer_1" data-worksheet="subtraction" data-problem-index="1">
+            <span class="feedback" id="subtraction_feedback_1"></span>
+        </div>
+     <div class="problem">
+            89 - 34 =
+            <input type="number" id="subtraction_answer_2" data-worksheet="subtraction" data-problem-index="2">
+            <span class="feedback" id="subtraction_feedback_2"></span>
+        </div>
+    <div class="problem">
+            52 - 18 =
+            <input type="number" id="subtraction_answer_3" data-worksheet="subtraction" data-problem-index="3">
+            <span class="feedback" id="subtraction_feedback_3"></span>
+        </div>
+   <div class="problem">
+            76 - 41 =
+            <input type="number" id="subtraction_answer_4" data-worksheet="subtraction" data-problem-index="4">
+            <span class="feedback" id="subtraction_feedback_4"></span>
+        </div>
+  <div class="problem">
+            90 - 25 =
+            <input type="number" id="subtraction_answer_5" data-worksheet="subtraction" data-problem-index="5">
+            <span class="feedback" id="subtraction_feedback_5"></span>
+        </div>
+  <div class="problem">
+            38 - 19 =
+            <input type="number" id="subtraction_answer_6" data-worksheet="subtraction" data-problem-index="6">
+            <span class="feedback" id="subtraction_feedback_6"></span>
+        </div>
+  <div class="problem">
+            61 - 37 =
+            <input type="number" id="subtraction_answer_7" data-worksheet="subtraction" data-problem-index="7">
+            <span class="feedback" id="subtraction_feedback_7"></span>
+        </div>
+ <div class="problem">
+            50 - 22 =
+            <input type="number" id="subtraction_answer_8" data-worksheet="subtraction" data-problem-index="8">
+            <span class="feedback" id="subtraction_feedback_8"></span>
+        </div>
+<div class="problem">
+            85 - 48 =
+            <input type="number" id="subtraction_answer_9" data-worksheet="subtraction" data-problem-index="9">
+            <span class="feedback" id="subtraction_feedback_9"></span>
+        </div>
+
+        <!-- Remaining problems for Subtraction worksheet -->
+    </div>
+
+    <div class="worksheet">
+        <h2>Worksheet 3: Mixed Addition & Subtraction</h2>
+        <p>Solve the following problems. Remember to add or subtract correctly!</p>
+
+        <div class="problem">
+            32 + 47 =
+            <input type="number" id="mixed_answer_0" data-worksheet="mixed" data-problem-index="0">
+            <span class="feedback" id="mixed_feedback_0"></span>
+        </div>
+   <div class="problem">
+            91 - 56 =
+            <input type="number" id="mixed_answer_1" data-worksheet="mixed" data-problem-index="1">
+            <span class="feedback" id="mixed_feedback_1"></span>
+        </div>
+  <div class="problem">
+            15 + 63 =
+            <input type="number" id="mixed_answer_2" data-worksheet="mixed" data-problem-index="2">
+            <span class="feedback" id="mixed_feedback_2"></span>
+        </div>
+ <div class="problem">
+            78 - 29 =
+            <input type="number" id="mixed_answer_3" data-worksheet="mixed" data-problem-index="3">
+            <span class="feedback" id="mixed_feedback_3"></span>
+        </div>
+<div class="problem">
+            24 + 55 =
+            <input type="number" id="mixed_answer_4" data-worksheet="mixed" data-problem-index="4">
+            <span class="feedback" id="mixed_feedback_4"></span>
+        </div>
+<div class="problem">
+            80 - 33 =
+            <input type="number" id="mixed_answer_5" data-worksheet="mixed" data-problem-index="5">
+            <span class="feedback" id="mixed_feedback_5"></span>
+        </div>
+<div class="problem">
+            66 + 14 =
+            <input type="number" id="mixed_answer_6" data-worksheet="mixed" data-problem-index="6">
+            <span class="feedback" id="mixed_feedback_6"></span>
+        </div>
+<div class="problem">
+            49 - 17 =
+            <input type="number" id="mixed_answer_7" data-worksheet="mixed" data-problem-index="7">
+            <span class="feedback" id="mixed_feedback_7"></span>
+        </div>
+<div class="problem">
+            58 + 31 =
+            <input type="number" id="mixed_answer_8" data-worksheet="mixed" data-problem-index="8">
+            <span class="feedback" id="mixed_feedback_8"></span>
+        </div>
+<div class="problem">
+            95 - 67 =
+            <input type="number" id="mixed_answer_9" data-worksheet="mixed" data-problem-index="9">
+            <span class="feedback" id="mixed_feedback_9"></span>
+        </div>
+        <!-- Remaining problems for Mixed worksheet -->
+    </div>
+
+    <div class="worksheet">
+        <h2>Worksheet 4: Word Problems</h2>
+        <p>Solve the following word problems. Show your work!</p>
+
+        <div class="problem">
+            Sarah has 23 apples. John gives her 15 more. How many apples does Sarah have in total?
+            <input type="number" id="word_problems_answer_0" data-worksheet="word_problems" data-problem-index="0">
+            <span class="feedback" id="word_problems_feedback_0"></span>
+        </div>
+   <div class="problem">
+           There are 56 birds in a tree. 24 birds fly away. How many birds are left in the tree?
+            <input type="number" id="word_problems_answer_1" data-worksheet="word_problems" data-problem-index="1">
+            <span class="feedback" id="word_problems_feedback_1"></span>
+        </div>
+  <div class="problem">
+           A baker made 38 cookies in the morning and 27 cookies in the afternoon. How many cookies did the baker make in total?
+            <input type="number" id="word_problems_answer_2" data-worksheet="word_problems" data-problem-index="2">
+            <span class="feedback" id="word_problems_feedback_2"></span>
+        </div>
+ <div class="problem">
+           A class has 45 students. 12 students are absent. How many students are present?
+            <input type="number" id="word_problems_answer_3" data-worksheet="word_problems" data-problem-index="3">
+            <span class="feedback" id="word_problems_feedback_3"></span>
+        </div>
+<div class="problem">
+          Maria collected 62 stamps. She gave 35 stamps to her friend. How many stamps does Maria have left?
+            <input type="number" id="word_problems_answer_4" data-worksheet="word_problems" data-problem-index="4">
+            <span class="feedback" id="word_problems_feedback_4"></span>
+        </div>
+        <!-- Remaining problems for Word Problems worksheet -->
+    </div>
+
+
+    <script>
+        const inputs = document.querySelectorAll('input[type="number"]');
+
+        inputs.forEach(input => {
+            input.addEventListener('blur', function() { // changed from keyup to blur for better UX
+                const worksheetName = this.dataset.worksheet;
+                const problemIndex = this.dataset.problemIndex;
+                const userAnswer = this.value;
+
+                fetch('/check_answer', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded',
+                    },
+                    body: `worksheet=${worksheetName}&problem_index=${problemIndex}&answer=${userAnswer}`
+                })
+                .then(response => response.json())
+                .then(data => {
+                    const feedbackSpan = document.getElementById(`${worksheetName}_feedback_${problemIndex}`);
+                    if (data.is_correct) {
+                        feedbackSpan.textContent = "Correct!";
+                        feedbackSpan.className = "feedback correct";
+                    } else {
+                        feedbackSpan.textContent = "Incorrect.";
+                        feedbackSpan.className = "feedback incorrect";
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    const feedbackSpan = document.getElementById(`${worksheetName}_feedback_${problemIndex}`);
+                    feedbackSpan.textContent = "Error checking answer.";
+                    feedbackSpan.className = "feedback incorrect";
+                });
+            });
+        });
+    </script>
+</body>
+</html>
